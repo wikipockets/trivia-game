@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This makes the page auto refresh -->
+    <!-- <meta http-equiv="refresh" content="5"> -->
+    <title>Disney Trivia!</title>
+    <link rel="icon" href="assets/images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+        <div class="row text-center">
+                        <div class="col-12" id="title">
+                            <h1>Disney Trivia!</h1></div>
+                    </div>
+            <div class="row text-center">
+                <div class="col-10 offset-1" id="fullGame">
+                    
+                    <div class="row">
+                        <div class="col-7 text-right" id="timer"></div>
+                        <div class="col-5 text-left" id="secondsRemaining"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" id="questionDisplay"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4 offset-4 text-center"><span id="startButton"><h1>Start</h1></span></div>
+                        
+                        <div class="col-12">
+                        <div class="row" id="answers"> </div></div>
+                       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assets/javascript/jquery-3.1.1.min.js"></script>
+<script src="assets/javascript/tether.js"></script>
+<script src="assets/javascript/bootstrap.min.js"></script>
+<script id="didntExpectDb" src="assets/javascript/db.js"></script>
+<script src="assets/javascript/app.js"></script>
+
+</html>

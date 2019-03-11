@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Disney;
+    src: url('../fonts/waltograph42.ttf');
+}
+
+body {
+    background-image: url("../images/background.gif");
+    font-family: Disney;
+}
+
+#fullGame {
+    background-color: rgba(234, 244, 246, 0.3);
+    padding-top: 1%;
+}
+
+.col-12 {
+    padding: 2%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#title h1 {
+    font-size: 4.5em;
+    margin-top: 1%;
+}
+
+#questionDisplay {
+    font-size: 2em;
+}
+
+#explanation {
+	font-size: 1.5em;
+}
+
+.answer {
+    margin-top: 2%;
+    border: 5px solid #eaf4f6;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.answer:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+    color: red;
+}
+
+#answer:active {
+    background-color: rgba(255, 255, 255, 1.0);
+    color: green;
+}
+
+@media only screen and (min-width: 320px) {
+    #title h1 {
+        font-size: 3.5em;
+    }
+    #questionDisplay h2 {
+        font-size: .75em;
+    }
+
+    #explanation h2 {
+    	font-size: .5em;
+    }
+    #timer h2 {
+        padding-top: 6%;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #title h1 {
+        font-size: 4.5em;
+        margin-top: 1%;
+    }
+    
+    #questionDisplay h2 {
+        font-size: 1.3em;
+    }
+    #explanation h2 {
+    	font-size: .75em;
+    }
+
+    #timer h2 {
+        padding-top: 0;
+        font-size: 2.2em;
+    }
+    #fullGame {
+        border: 1px dotted black;
+    }
+}
